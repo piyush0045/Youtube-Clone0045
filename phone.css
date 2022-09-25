@@ -1,0 +1,65 @@
+aside,.dots{
+    display: none;
+}
+
+.container{
+    width: 65%;
+}
+
+.card img{
+    height: 100%;
+    width: 60%;
+}
+
+.avtar img{
+    height: 30px;
+}
+
+.logo img{
+    height: 20px;
+    width: 80px;
+}
+
+.search,.mic{
+    display: none;
+}
+.side-nav img,.mic img{
+    height:15px ;
+}
+
+.side-nav{
+    gap:5px;
+    margin-right: 0px;
+     
+}
+
+main{
+    width: 100%;
+}
+
+ .tags{
+    padding: 10px 2px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(80px,1fr));
+ }
+
+ .tag{
+    padding: 3px 33px;
+    width: 40%;
+ }
+
+ .avtar-content{
+    padding-top: 5px;
+    gap: 0px;
+ }
+
+ .content{
+    gap: 0px;
+ }
+
+ .content h3{
+    font-size: 20px;
+ }
+
+
+
